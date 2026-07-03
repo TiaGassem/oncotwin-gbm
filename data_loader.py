@@ -18,7 +18,7 @@ so a schema mismatch is caught before it corrupts downstream IC50 fits.
 from pathlib import Path
 import pandas as pd
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+ DATA_DIR = Path(__file__).resolve().parent
 
 # Update these if your real column headers differ
 EXPECTED_CV_COLUMNS = {
